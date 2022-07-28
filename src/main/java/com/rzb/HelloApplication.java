@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 public class HelloApplication {
-        System.out.println("Hello");
+        System.out.println("Hello world");
 	public static void main(String[] args) {
 		SpringApplication.run(HelloApplication.class, args);
 	}
